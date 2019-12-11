@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<span class="border-top"></span>
+
+
+<h1 class="p-5 text-center"> Trader Interview Simulator </h1>
+
+<h4 class="m-5 text-center"><%= q %></h4>
+
+
+<form class = "text-center" action="/new_question" method="POST">
+    <button  class="btn btn-outline-info text-center">try a simple question</button>
+</form>
+
+<form class = "text-center" action="/new_question_2" method="POST">
+    <button  class="btn btn-outline-info text-center">try a harder question</button>
+</form>
+
+<form class = "text-center" action="/show_answer" method="POST">
+    <button  class="btn btn-outline-success text-center">I've got it.</button>
+    
+</form>
+<h4 class="m-5 text-center"><%= a %></h4>
+
+<h5 class = "text-center"><%= time_passed %></h4>
+
+
